@@ -20,9 +20,6 @@ class Solution:
         
 
 if __name__ == "__main__":
-    
-    # this won't work because Solution.merge is not a static method
-    # Solution.merge([1,2,3,0,0,0], 3, [2,5,6], 3)
 
     solution = Solution()
     solution.removeElement([0,1,2,2,3,0,4,2], 2)
