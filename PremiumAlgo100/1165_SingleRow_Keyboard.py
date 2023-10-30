@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/single-row-keyboard/?envType=study-plan-v2&envId=premium-algo-100
 class Solution:
     def calculateTime(self, keyboard: str, word: str) -> int:
         keyboard_dictionary = {character: index for index, character in enumerate(keyboard)}

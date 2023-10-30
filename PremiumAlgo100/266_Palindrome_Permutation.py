@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/palindrome-permutation/?envType=study-plan-v2&envId=premium-algo-100
+
 class Solution:
     def canPermutePalindrome(self, s: str) -> bool:
         string_dict = {}
