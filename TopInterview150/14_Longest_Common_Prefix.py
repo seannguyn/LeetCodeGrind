@@ -37,7 +37,6 @@ class Solution():
         prefix=[]
         num = len(strs)
         for x in zip(*strs):
-            print(f"x: {x}")
             if len(set(x)) == 1:
                 prefix.append(x[0])
             else:
